@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "client/packages/*"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "lerna": "^8.1.8",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  }
+}
