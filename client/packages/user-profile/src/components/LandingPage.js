@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// import Basic from "@3triplea/reacom/src/components/Buttons/Basic/Basic"
-
-// import TextLabel from "../../../../stories/components/TextLabel/TextLabel.jsx";
+import { Button } from "@reacom/react-hive";
+import "@reacom/react-hive/dist/style.css";
 
 const btn = {
   border: "2px solid red",
@@ -15,8 +14,6 @@ export default function LandingPage() {
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
       <h1 className="header-style">LandingPage</h1>
-      {/* <Basic variant="contained" label="basic button" /> */}
-      {/* <TextLabel key="Name" value="Alex" /> */}
       <div style={{ display: "flex" }}>
         <button
           style={{
@@ -41,6 +38,7 @@ export default function LandingPage() {
             Go to logout page
           </Link>
         </button>
+        <Button>Testing imported Button</Button>
       </div>
     </div>
   );

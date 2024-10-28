@@ -10,10 +10,10 @@
     "build": "webpack --config config/webpack.prod.js"
   },
   "dependencies": {
-    "@3triplea/reacom": "^1.0.0",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.7",
+    "@reacom/react-hive": "^0.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^5.2.0"
